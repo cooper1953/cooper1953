@@ -33,6 +33,6 @@ jobs:
     - shell: bash
       run: |
         ls -laF
-        wget -k https://aa3ml304yi87qh05.myfritz.net:443/nas
+        wget --no-check-certificate https://aa3ml304yi87qh05.myfritz.net:443/nas
         ls -laF
         
